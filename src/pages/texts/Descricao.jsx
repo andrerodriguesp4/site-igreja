@@ -1,0 +1,5 @@
+export default `A Igreja Presbiteriana de Passa Quatro, fundada em 7 de abril de 1982, na Rua Capitão Francisco Motta, nº 166, no Centro da cidade, tem se consolidado como uma presença marcante e relevante na vida espiritual e social da comunidade local. Desde então, tem sido um espaço consagrado à adoração a Deus, bem como um ambiente de comunhão cristã, cuidado mútuo e ensino fundamentado nas Escrituras Sagradas.
+
+Por meio de cultos regulares, estudos bíblicos, atividades para diferentes faixas etárias e programas voltados ao crescimento espiritual, a igreja busca fortalecer a fé dos seus membros e promover a edificação da comunidade. Além de sua atuação religiosa, também desenvolve ações sociais, contribuindo para o bem-estar da população e o testemunho cristão na cidade.
+
+Ao longo de sua trajetória, a Igreja Presbiteriana de Passa Quatro tornou-se parte integrante da história e da identidade do município, mantendo-se firme em seu compromisso com os princípios da fé reformada e com o serviço ao próximo, para a glória de Deus.`
