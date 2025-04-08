@@ -7,7 +7,7 @@ import MotivosOracao from './pages/MotivosOracao'
 import Contato from './pages/Contato'
 import Reunioes from './pages/Reunioes'
 import logo from './components/logo.png'
-import Buttonnavbar from './components/Buttonnavbar'
+import Buttonnavbar from './components/css/Buttonnavbar'
 
 function Navbar() {
 
@@ -28,7 +28,7 @@ function Navbar() {
 function App() {
   return (
     <Router>
-      <div className='w-screen h-screen'>
+      <div className='w-full'>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
