@@ -10,18 +10,17 @@ import logo from './components/logo.png'
 import Buttonnavbar from './components/Buttonnavbar'
 
 function Navbar() {
-  const navigate = useNavigate()
 
   return (
     <nav className='bg-green-800 text-white px-6 py-4 flex justify-center items-center gap-6 shadow-md'>
       <div className='absolute left-4 flex'>
         <img src={logo} alt='Logo' className='h-12' title='Igreja Presbiteriana de Passa Quatro' />
       </div>
-      <Buttonnavbar onClick={() => navigate('/')} >Início</Buttonnavbar>
-      <Buttonnavbar onClick={() => navigate('/avisos')} >Avisos</Buttonnavbar>
-      <Buttonnavbar onClick={() => navigate('/motivos-oracao')} >Motivos de Oração</Buttonnavbar>
-      <Buttonnavbar onClick={() => navigate('/reunioes')}>Reuniões</Buttonnavbar>
-      <Buttonnavbar onClick={() => navigate('/contato')}>Contato</Buttonnavbar>
+      <Buttonnavbar to="/">Início</Buttonnavbar>
+      <Buttonnavbar to="/avisos">Avisos</Buttonnavbar>
+      <Buttonnavbar to="/motivos-oracao">Motivos de Oração</Buttonnavbar>
+      <Buttonnavbar to="/reunioes">Reuniões</Buttonnavbar>
+      <Buttonnavbar to="/contato">Contato</Buttonnavbar>
     </nav>
   )
 }
