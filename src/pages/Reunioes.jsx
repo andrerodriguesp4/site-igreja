@@ -4,8 +4,8 @@ import ListaReunioes from '../components/ListaReunioes'
 
 function Reunioes(){
     return(
-        <div className="flex justify-center pb-10 px-8">
-            <div>
+        <div className="flex justify-center">
+            <div className='pb-10 px-8'>
                 <div className='flex justify-center items-center'>
                     <ClipboardList size={30}/>
                     <H1title>Reuniões</H1title>

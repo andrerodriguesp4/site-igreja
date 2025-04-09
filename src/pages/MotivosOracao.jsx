@@ -4,8 +4,8 @@ import ListaMotivos from '../components/ListaMotivos.jsx'
 
 function MotivosOracao(){
     return(
-        <div className='flex justify-center pb-10 px-8'>
-            <div>
+        <div className='flex justify-center'>
+            <div className='pb-10 px-8'>
                 <div className='flex items-center'>
                     <Church/>
                     <H1title>Motivos de Oração</H1title>

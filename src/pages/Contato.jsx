@@ -3,8 +3,8 @@ import H1title from '../components/css/H1title.jsx'
 
 function Contato(){
     return(
-        <div className='flex justify-center pb-10 px-10'>
-            <div>
+        <div className='flex justify-center'>
+            <div className='pb-10 px-8'>
                 <div className='flex justify-center items-center'>
                     <Send size={30}/>
                     <H1title>Contato</H1title>
