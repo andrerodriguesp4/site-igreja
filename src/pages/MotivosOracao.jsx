@@ -10,7 +10,7 @@ function MotivosOracao(){
                     <Church/>
                     <H1title>Motivos de Oração</H1title>
                 </div>
-                <div className="px-8 border-2 rounded-md bg-blue-200">
+                <div className="border rounded-md bg-blue-200">
                     <ul className='list-disc'>
                         <ListaMotivos/>
                     </ul>

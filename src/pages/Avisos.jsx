@@ -1,6 +1,5 @@
 import { Bell } from "lucide-react";
-import LiAvisos from "../components/css/LiAvisos";
-import Listaavisos from "../components/Listaavisos";
+import ListaAvisos from "../components/Listaavisos";
 import H1title from "../components/css/H1title";
 
 function Avisos() {
@@ -13,9 +12,9 @@ function Avisos() {
             Avisos
           </H1title>
         </div>
-        <div className="px-8 border-2 rounded-md bg-green-200">
+        <div className="border rounded-md bg-green-200">
           <ul className="list-disc">
-            <Listaavisos />
+            <ListaAvisos />
           </ul>
         </div>
       </div>

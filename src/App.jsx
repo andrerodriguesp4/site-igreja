@@ -28,7 +28,7 @@ function Navbar() {
 function App() {
   return (
     <Router>
-      <div className='w-full'>
+      <div className='w-full h-full'>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
