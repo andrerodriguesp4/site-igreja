@@ -4,7 +4,7 @@ import H1title from "../components/css/H1title";
 
 function Avisos() {
   return (
-    <div className="flex justify-center pb-10">
+    <div className="flex justify-center pb-10 px-8">
       <div>
         <div className="flex items-center justify-center">
           <Bell />
