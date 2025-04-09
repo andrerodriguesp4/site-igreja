@@ -12,9 +12,9 @@ import Buttonnavbar from './components/css/Buttonnavbar'
 function Navbar() {
 
   return (
-    <nav className='bg-green-800 text-white px-6 py-4 flex justify-center items-center gap-6 shadow-md'>
-      <div className='absolute left-4 flex'>
-        <img src={logo} alt='Logo' className='h-12' title='Igreja Presbiteriana de Passa Quatro' />
+    <nav className='bg-green-800 text-white px-6 py-4 flex flex-wrap justify-center items-center gap-6 shadow-md'>
+      <div className='absolute sm:static left-4 sm:left-0 flex'>
+        <img src={logo} alt='Logo' className='sm:h-12 h-0' title='Igreja Presbiteriana de Passa Quatro' />
       </div>
       <Buttonnavbar to="/">Início</Buttonnavbar>
       <Buttonnavbar to="/avisos">Avisos</Buttonnavbar>
